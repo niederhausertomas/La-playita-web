@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+Paleta de colores:
+bordo--> #9B0059
+verde--> #55DEC5
+*/
+
+.navColor{
+    background-color: #9B0059;
+    transition: 4s;
+}
+
+#btnWhatsApp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+    background-color: #00CD54;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#btnWhatsApp:hover{
+    bottom: 38px;
+    transition: 0.5s;
+}
+
+.carousel-inner{
+    height: 760px;
+}
+
+.container1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carouselText{
+    background-color:#55dec570;
+    border-radius: 10px;
+    position: absolute;
+    margin: -170px 20px 170px 20px;
+    padding: 10px;
+}
+
+.carouselText h1{
+    color: white;
+}
+
+.pieDelTitulo{
+    color: #9B0059;
+}
+
+.paquetesTexto{
+    color: #9B0059;
+    margin: 40px 40px 40px 40px;
+}
+
+.paquetesTexto h3{
+font-size: 35px;
+font-weight: bold;
+}
+
+.paquetesTexto p{
+    font-size: 25px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #9B0059;
+}
+
+.card-text{
+    color: #9B0059;
+}
+
+.btn-primary{
+    background-color: #9B0059;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #55DEC5;
+}
+
+.ejemplo{
+    height: 1000px;
+}
+
+#divisor{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://github.com/niederhausertomas/sunraising/blob/main/images/pexels-scott-webb-137602R.jpg?raw=true"); }
+
+@media only screen and (max-width: 420px) {
+    * {
+        overflow-x: hidden; }
+
+        .carousel-inner{
+            height: 200px;
+        }
+
+        .carouselText{
+            position: relative;
+            background-color:#55DEC5;
+            border-radius: 0px;
+            margin: 0px 0px 10px 0px;
+            padding: 10px;
+        }
+        
+        .titulo{
+            font-size: 20px;
+            height: 120px;
+        }
+
+        .pieDelTitulo{
+            font-size: 18px;
+            height: 50px;
+        }
+
+        .paquetesTexto{
+            margin: 40px 10px 40px 10px;
+        }
+
+        .paquetesTexto h3{
+            height: 100px;
+            }
+
+    }
+
+
+    @media only screen and (min-width: 421px) and (max-width: 1023px) {
+        * {
+            overflow-x: hidden; }
+
+            .carousel-inner{
+                height: 450px;
+            }
+    
+            .carouselText{
+                position: relative;
+                background-color:#55DEC5;
+                border-radius: 0px;
+                margin: 0px 0px 10px 0px;
+                padding: 10px;
+            }
+            
+            .titulo{
+                font-size: 30px;
+                height: 120px;
+            }
+    
+            .pieDelTitulo{
+                font-size: 25px;
+                height: 70px;
+            }
+            
+            .paquetesTexto h3{
+                height: 100px;
+                }
+
+        }
