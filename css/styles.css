@@ -1,12 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+}
+
+#Contacto{
+    scroll-margin-top: 140px;
 }
 
 /*
 Paleta de colores:
 bordo--> #9B0059
 verde--> #55DEC5
+https://www.pexels.com/es-es/buscar/kite%20foil/
 */
 
 .navColor{
@@ -32,6 +38,32 @@ verde--> #55DEC5
 #btnWhatsApp:hover{
     bottom: 38px;
     transition: 0.5s;
+}
+
+#btnMail{
+    position: fixed;
+    top: 80px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #9B0059;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid 2px #9B0059;
+}
+
+#btnMail svg{
+    height: 27px;
+    padding-top: -500px;
+}
+
+#btnMail:hover{
+    color: #55DEC5;
+    border: solid 2px #55DEC5;
 }
 
 .carouselImg{
@@ -103,431 +135,481 @@ font-weight: bold;
 }
 
 #divisor{
+margin-top: 50px;
+height: 300px;
+width: 100%;
+font-size: 50px;
+text-align: center;
+color: white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-image: url("https://github.com/niederhausertomas/La-playita-web/blob/main/images/divisor.jpg?raw=true"); }
+
+.AdemasContainer{
+    display: flex;
+}
+
+.ademasTexto{
+    color: #9B0059;
     margin-top: 50px;
-    height: 300px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.c1{
+    height: 500px;
+    width: 50%;
+}
+
+.c2{
+    height: 500px;
+    width: 50%;
+}
+
+.c3{
+    height: 500px;
+    width: 50%;
+}
+
+.c4{
+    height: 500px;
+    background-color: rgb(255, 0, 179);
+    width: 50%;
+}
+
+.carouselImg2{
+    height: 500px;
     width: 100%;
-    font-size: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textoAdemas{
+    color: #9B0059;
+    font-size: 20px;
+    padding: 50px 50px 50px 50px;
+}
+
+.textoAdemas li{
+    margin-top: 15px;
+}
+
+.contactanos{
     text-align: center;
+}
+
+.contactanos h3{
+    color: #9B0059;
+    margin-bottom: 50px;
+}
+
+.contactanos a button{
+    font-size: 20px;
+}
+
+.llamanosTexto{
+    font-size: 15px;
+    color: #9B0059;
+}
+
+.llamanosTexto a{
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+}
+.llamanosTexto a:hover{
+    color: #9B0059;
+}
+
+.containerContacto{
+    height: 900px;
+    width: 100%;
+}
+
+.imagenFondo{
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 850px;
+    background-color: #55DEC5;
+    z-index: -10;
+}
+
+.containerContactoFlex{
+    display: flex;
+}
+
+.imagenFondo img{
+    width: 100%;
+}
+
+.porque{
+    color: #9B0059;
+    text-align: center;
+}
+.containerForm1{
+    height: 500px;
+    width: 500px;
+    margin: 300px 20px 20px 200px;
+}
+
+.contform1{
+    margin-top: 10px;
+}
+
+.contform1 h3{
+    color: #9B0059;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+
+.containerForm1Text p{
+    color: #9B0059;
+    font-size: 18px;
+    margin: -20px 0px 20px 0px;
+    padding-left: 5px;
+}
+
+.containerForm1Text svg{
+    fill: #9B0059;
+    margin-top: 20px;
+    width: 46px;
+    height: 46px;
+}
+
+.containerForm2{
+    background-color: rgba(255, 255, 255, 0.486);
+    height: 640px;
+    width: 450px;
+    margin: 210px 20px 50px 30px;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.containerForm2 h3{
+    color: #9B0059;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+}
+
+.seleccione{
+    color: #9B0059;
+    font-size: 20px;
+}
+
+footer section{
+    background-color: #9B0059;
+    padding: 50px 50px 50px 50px;
+    margin-top: 0px;
     color: white;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-image: url("https://github.com/niederhausertomas/La-playita-web/blob/main/images/divisor.jpg?raw=true"); }
+}
 
-    .AdemasContainer{
-        display: flex;
+.footerTelefono{
+    text-decoration: none;
+    color: white;
     }
 
-    .ademasTexto{
-        color: #9B0059;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        font-size: 35px;
-        font-weight: bold;
-    }
+.footerTelefono:hover{
+    color: rgb(48, 47, 47);
+}
 
-    .c1{
-        height: 500px;
-        width: 50%;
-    }
+.social{
+    fill: white;
+    height: 50px;
+    width: 50px;
+}
 
-    .c2{
-        height: 500px;
-        width: 50%;
-    }
+.social:hover{
+    fill: rgb(48, 47, 47);
+}
 
-    .c3{
-        height: 500px;
-        width: 50%;
-    }
+.footerMap{
+    width: 50%;
+    height: 450px;
+}
 
-    .c4{
-        height: 500px;
-        background-color: rgb(255, 0, 179);
-        width: 50%;
-    }
-
-    .carouselImg2{
-        height: 500px;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .textoAdemas{
-        color: #9B0059;
-        font-size: 20px;
-        padding: 50px 50px 50px 50px;
-    }
-
-    .textoAdemas li{
-        margin-top: 15px;
-    }
-
-    .contactanos{
-        text-align: center;
-    }
-
-    .contactanos h3{
-        color: #9B0059;
-        margin-bottom: 50px;
-    }
-
-    .contactanos a button{
-        font-size: 20px;
-    }
-
-    .llamanosTexto{
-        font-size: 15px;
-        color: #9B0059;
-    }
-
-    .llamanosTexto a{
-        font-size: 15px;
-        color: gray;
-        text-decoration: none;
-    }
-    .llamanosTexto a:hover{
-        color: #9B0059;
-    }
-
-    .containerContacto{
-        height: 700px;
-        width: 100%;
-    }
-    
-    .imagenFondo{
-        position: absolute;
-        margin-top: -700px;
-        width: 100%;
-        height: 700px;
-        background-color: #55DEC5;
-        z-index: -10;
-    }
-    
-    .containerContactoFlex{
-        display: flex;
-    }
-    
-    .imagenFondo img{
-        width: 100%;
-    }
-    
-    .porque{
-        color: #9B0059;
-        text-align: center;
-    }
-    .containerForm1{
-        background-color: rgb(189, 21, 161);
-        height: 600px;
-        width: 500px;
-        margin: 50px 20px 50px 200px;
-    }
-    
-    .contform1{
-        background-color: tomato;
-        margin-top: 10px;
-    }
-    
-    .contform1 h3{
-        color: #9B0059;
-        font-size: 30px;
-        text-align: center;
-        font-weight: bold;
-        margin: 0px 0px 0px 0px;
-        background-color: yellow;
-    }
-    
-    .containerForm1Text p{
-        color: #9B0059;
-        background-color: #00CD54;
-        font-size: 18px;
-        margin: -20px 0px 20px 0px;
-    }
-    
-    .containerForm1Text svg{
-        fill: #9B0059;
-        background-color: #00CD54;
-        margin-top: 20px;
-        width: 46px;
-        height: 46px;
-    }
-    
-    .containerForm2{
-        background-color: rgb(189, 21, 21);
-        height: 600px;
-        width: 500px;
-        margin: 50px 20px 50px 30px;
-    }
-
-
-
-
-
-
-
-    footer section{
-        background-color: #9B0059;
-        padding: 50px 50px 50px 50px;
-    }
-
-    .footerTelefono{
-        text-decoration: none;
-        color: black;
-        }
-    
-    .footerTelefono:hover{
-        color: rgb(48, 47, 47);
-    }
-
-    .social:hover{
-        fill: rgb(48, 47, 47);
-    }
-
-    .footerMap{
-        width: 50%;
-        height: 450px;
-    }
-
-    .footerMap iframe{
-        width: 100%;
-        height: 100%;
-    }
+.footerMap iframe{
+    width: 100%;
+    height: 100%;
+}
 
 @media only screen and (max-width: 420px) {
     * {
         overflow-x: hidden; }
 
-        .carouselImg{
-            height: 550px;
-            width: 100%;
-            object-fit: cover;
-            object-position: right;
-        }
+    #btnMail{
+        height: 0px;
+        width: 0px;
+        border: none;
+    }
 
-        .carouselText{
-            position: relative;
-            background-color:#55DEC5;
-            border-radius: 0px;
-            margin: 0px 0px 10px 0px;
-            padding: 10px;
-        }
-        
-        .titulo{
-            font-size: 20px;
-            height: 120px;
-        }
+    .carouselImg{
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
 
-        .pieDelTitulo{
-            font-size: 18px;
-            height: 50px;
-        }
-
-        .paquetesTexto{
-            margin: 40px 10px 40px 10px;
-        }
-
-        .paquetesTexto h3{
-            height: 100px;
-            }
-
-        .paquetesTexto p{
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-
-        #divisor{
-            height: 100px;}
-
-        .AdemasContainer{
-            display: block;
-        }
-
-        .ademasTexto{
-            height: 150px;
-        }
-
-        .c1{
-            width: 100%;
-        }
+    .carouselText{
+        position: relative;
+        background-color:#55DEC5;
+        border-radius: 0px;
+        margin: 0px 0px 10px 0px;
+        padding: 10px;
+    }
     
-        .c2{
-            width: 100%;
-        }
+    .titulo{
+        font-size: 20px;
+        height: 120px;
+    }
 
-        .c3{
-            width: 100%;
-            margin-top: 500px;
-            height: 650px;
-        }
+    .pieDelTitulo{
+        font-size: 18px;
+        height: 50px;
+    }
 
-        .c4{
-            width: 100%;
-            position: absolute;
-            margin-top: -1150px;
-        }
+    .paquetesTexto{
+        margin: 40px 10px 40px 10px;
+    }
 
-        .contactanos h2{
-        height: 250px;
-        }
-        
-        .contactanos h3{
+    .paquetesTexto h3{
         height: 100px;
         }
 
-        .containerContactoFlex{
-            display: block;
-        }
-
-
-
-
-
-
-
-
-        .containerContacto{
-            height: 1400px;
-            background-color: tomato;
-        }
-        
-        .imagenFondo{
-            position: absolute;
-            margin-top: -700px;
-            width: 100%;
-            height: 700px;
-            background-color: #55DEC5;
-            z-index: -10;
-        }
-                
-        .imagenFondo img{
-            width: 100%;
-        }
-        
-        .porque{
-            color: #9B0059;
-            text-align: center;
-        }
-        .containerForm1{
-            background-color: rgb(189, 21, 161);
-            height: 600px;
-            width: 100%;
-            margin: 50px 0px 50px 0px;
-        }
-        
-        .contform1{
-            background-color: tomato;
-            margin-top: 10px;
-            display: block;
-        }
-        
-        .contform1 h3{
-            color: #9B0059;
-            font-size: 30px;
-            text-align: center;
-            font-weight: bold;
-            margin: 0px 0px 0px 0px;
-            background-color: yellow;
-        }
-        
-        .containerForm1Text p{
-            color: #9B0059;
-            background-color: #00CD54;
-            font-size: 18px;
-            margin: -20px 0px 20px 0px;
-        }
-        
-        .containerForm1Text svg{
-            fill: #9B0059;
-            background-color: #00CD54;
-            margin-top: 20px;
-            width: 46px;
-            height: 46px;
-        }
-        
-        .containerForm2{
-            background-color: rgb(189, 21, 21);
-            height: 600px;
-            width: 500px;
-            margin: 50px 20px 50px 30px;
-        }
-
-
-
-
-
-
-
-
-
-        footer section{
-            padding: 50px 10px 50px 10px;
-        }
-
-        footer h2{
-            height: 40px;
-        }
-
-        footer h6{
-            height: 40px;
-        }
-
-        .footerMap{
-            width: 100%;
-            height: 350px;
-            margin-top: 20px;
-        }
-    
-        .footerMap iframe{
-            width: 100%;
-            height: 95%;
-        }
+    .paquetesTexto p{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
     }
 
-    @media only screen and (min-width: 421px) and (max-width: 1023px) {
-        * {
-            overflow-x: hidden; }
-    
-            .carouselImg{
-                height: 650px;
-                width: 100%;
-                object-fit: cover;
-                object-position: right;
-            }
-    
-            .carouselText{
-                position: relative;
-                background-color:#55DEC5;
-                border-radius: 0px;
-                margin: 0px 0px 10px 0px;
-                padding: 10px;
-            }
-            
-            .titulo{
-                font-size: 30px;
-                height: 120px;
-            }
-    
-            .pieDelTitulo{
-                font-size: 25px;
-                height: 70px;
-            }
-            
-            .paquetesTexto h3{
-                height: 100px;
-                margin-bottom: 0px;
-                padding-top: 50px;
-                }
+    .card-title{
+        height: 75px;
+    }
 
-                .ademasTexto{
-                    height: 150px;
-                }
+    #divisor{
+        height: 100px;}
 
-                .c3 .textoAdemas{
-                    padding-top: 0;
-                    margin-top: 0;
-                    padding-bottom: 0;
-                }
+    .AdemasContainer{
+        display: block;
+    }
+
+    .ademasTexto{
+        height: 150px;
+    }
+
+    .c1{
+        width: 100%;
+    }
+
+    .c2{
+        width: 100%;
+    }
+
+    .c3{
+        width: 100%;
+        margin-top: 500px;
+        height: 650px;
+    }
+
+    .c4{
+        width: 100%;
+        position: absolute;
+        margin-top: -1150px;
+    }
+
+    .contactanos h2{
+    height: 250px;
+    }
+    
+    .contactanos h3{
+    height: 100px;
+    }
+
+    .containerContactoFlex{
+        display: block;
+    }
+
+    .containerContacto{
+        height: 1650px;
+    }
+    
+    .containerForm1{
+        height: 800px;
+        width: 100%;
+        margin: 50px 0px 50px 0px;
+        background-color: #55DEC5;
+        padding-top: 20px;
+    }
+    
+    .porque{
+        height: 50px;
+    }
+
+    .contform1 h3{
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .imagenFondo{
+        width: 0px;
+        height: 0px;
+        z-index: -10;
+    }
+            
+    .imagenFondo img{
+        width: 0px;
+    }
+
+    .containerForm1Text svg{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .containerForm1 ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+    .contform2{
+        width: 160px;
+    }    
+        
+    .containerForm2{
+        height: 800px;
+        width: 100%;
+        margin: -51px 0px 0px 0px;
+        background-color: #55DEC5;
+        border-radius: 0%;
+    }
+
+    #Contacto{
+        height: 50px;
+    }
+
+    footer section{
+        padding: 50px 10px 50px 10px;
+    }
+
+    footer h2{
+        height: 40px;
+    }
+
+    footer h6{
+        height: 40px;
+    }
+
+    .footerMap{
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .footerMap iframe{
+        width: 100%;
+        height: 95%;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 1023px) {
+    * {
+        overflow-x: hidden; }
+
+    .carouselImg{
+        height: 650px;
+        width: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .carouselText{
+        margin: -230px 20px 170px 20px;
+    }
+        
+    .titulo{
+        font-size: 30px;
+        height: 120px;
+    }
+
+    .pieDelTitulo{
+        font-size: 25px;
+        height: 70px;
+    }
+        
+    .paquetesTexto h3{
+        height: 100px;
+        margin-bottom: 0px;
+        padding-top: 50px;
+    }
+
+    .ademasTexto{
+        height: 150px;
+    }
+
+    .c3 .textoAdemas{
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .containerForm1{
+        height: 900px;
+        width: 600px;
+        margin: 200px 0px 20px 0px;
+    }
+
+    .containerContacto{
+        height: 1200px;
+    }
+
+    .imagenFondo{
+        margin-top: 20px;
+        height: 1200px;
+    }
+
+    .contform1 h3{
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
         }
+
+    .containerForm1Text{
+        height: 270px;
+    }
+
+    .containerForm1Text svg{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+    
+    .containerForm1 ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    
+    .containerForm2{
+        margin-left: 10px;
+        padding-left: 10px;
+        height: 800px;
+    }
+
+    .contform2{
+        width: 160px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #Contacto{
+        height: 50px;
+    }
+}
