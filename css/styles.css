@@ -162,7 +162,14 @@ background-image: url("https://github.com/niederhausertomas/La-playita-web/blob/
 
 .c1{
     height: 500px;
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.carouselBorderRadius{
+    border-radius: 50%;
+
 }
 
 .c2{
@@ -177,7 +184,9 @@ background-image: url("https://github.com/niederhausertomas/La-playita-web/blob/
 
 .c4{
     height: 500px;
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .carouselImg2{
@@ -406,6 +415,7 @@ footer section{
 
     .c1{
         width: 100%;
+        margin: 0px;
     }
 
     .c2{
@@ -421,7 +431,11 @@ footer section{
     .c4{
         width: 100%;
         position: absolute;
-        margin-top: -1150px;
+        margin: -1150px 0px 0px 0px;
+    }
+
+    .carouselImg2{
+        height: 400px;
     }
 
     .contactanos h2{
@@ -558,6 +572,11 @@ footer section{
         padding-top: 0;
         margin-top: 0;
         padding-bottom: 0;
+    }
+
+    .carouselImg2{
+        height: 400px;
+        margin: 2px 2px 2px 2px;
     }
 
     .containerForm1{
