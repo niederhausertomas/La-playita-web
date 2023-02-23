@@ -42,28 +42,28 @@ https://www.pexels.com/es-es/buscar/kite%20foil/
 
 #btnMail{
     position: fixed;
-    top: 80px;
-    right: 40px;
+    bottom: 40px;
+    right: 100px;
     height: 40px;
     width: 40px;
     line-height: 35px;
     text-align: center;
-    color: #9B0059;
+    color: white;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #9B0059;
     border-radius: 50%;
     cursor: pointer;
     border: solid 2px #9B0059;
 }
 
+#btnMail:hover{
+    bottom: 38px;
+    transition: 0.5s;
+}
+
 #btnMail svg{
     height: 27px;
     padding-top: -500px;
-}
-
-#btnMail:hover{
-    color: #55DEC5;
-    border: solid 2px #55DEC5;
 }
 
 .carouselImg{
