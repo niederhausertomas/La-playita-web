@@ -170,6 +170,10 @@ background-image: url("https://github.com/niederhausertomas/La-playita-web/blob/
 .carouselBorderRadius{
     border-radius: 50%;
     border: solid 2px #9B0059;
+    height: 350px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 70px;
 }
 
 .c2{
@@ -434,6 +438,11 @@ footer section{
         margin: -1150px 0px 0px 0px;
     }
 
+    .carouselBorderRadius{
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
     .carouselImg2{
         height: 400px;
     }
@@ -580,6 +589,14 @@ footer section{
 
     .c4{
         margin-top: 100px;
+    }
+
+
+    .carouselBorderRadius{
+        height: 300px;
+        width: 300px;
+        margin-top: 5%;
+        margin-left: 3%;
     }
 
     .carouselImg2{
